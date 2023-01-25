@@ -1,0 +1,277 @@
+html 
+{
+	overflow-y: scroll; 
+}
+header
+{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 300px;
+	height: 300px;
+	font-family: "Times New Roman";
+}
+img#background
+{
+	overflow-y: scroll;
+	position: absolute;
+	width: 98%;
+	height: 2600px;
+}
+tr
+{
+	position: absolute;
+	font-size: 20px;
+	left: 130px;
+	top: 80px;
+	padding: 20px;
+	font-family: "Times New Roman";
+}
+.sec
+{
+position: absolute;
+left: 100px;
+top: 200px;
+width: 600px;
+font-family: "Times New Roman";
+}
+.sec h2
+{
+position: absolute;
+left: 120px;
+font-size: 45px;
+font-family: "Times New Roman";
+}
+.sec img
+{
+position: relative;
+width: 100%;
+height: 600px;
+top: 100px;
+}
+.about-us
+{
+position: absolute;
+font-size: 20px;
+top: 510px;
+left: 120px;
+width: 75%;
+font-family: "Times New Roman";
+}
+.map
+{
+position: absolute;
+top: 180px;
+left: 800px;
+width: 400px;
+}
+.map h2
+{
+position: absolute;
+left: 250px;
+font-family: "Times New Roman";
+}
+.description
+{
+position: absolute;
+left: 100px;
+top: 450px;
+font-family: "Times New Roman";
+}
+.title
+{
+position: absolute;
+font-size: 20px;
+top: 160px;
+left: 550px;
+width: 20px;
+font-family: "Times New Roman";
+}
+.map img
+{
+position: relative;
+top: 50px;
+width: 100%;
+height: 800px;
+}
+.rooms
+{
+position: absolute;
+top: 910px;
+left: 100px;
+width: 600px;
+font-family: "Times New Roman";
+}
+.rooms h2
+{
+position: absolute;
+left: 300px;
+font-family: "Times New Roman";
+}
+.rooms img
+{
+position: relative;
+top: 50px;
+width: 100%;
+height: 1000px;
+}
+.information
+{
+position: absolute;
+left: 100px;
+width: 80%;
+top: 750px;
+font-size: 20px;
+font-family: "Times New Roman";
+}
+.information1
+{
+position: absolute;
+left: 100px;
+width: 80%;
+top: 750px;
+font-size: 20px;
+font-family: "Times New Roman";
+}
+.information2
+{
+position: absolute;
+left: 100px;
+width: 80%;
+top: 750px;
+font-size: 20px;
+font-family: "Times New Roman";
+}
+.booking
+{
+position: absolute;
+top: 1040px;
+left: 800px;
+width: 400px;
+}
+.booking img
+{
+position: relative;
+width: 100%;
+height: 500px;
+top: 50px;
+}
+.booking h2
+{
+position: absolute;
+left:250px;
+color: black;
+font-family: "Times New Roman";
+}
+.bookingform 
+{
+position: absolute;
+top: 120px;
+left: 180px;
+font-size: 15px;
+padding: 20px;
+font-family: "Times New Roman";
+}
+.submit
+{
+position: absolute;
+left: 40px;
+top: 300px;
+}
+.contact
+{
+position: absolute;
+top: 2000px;
+left: 150px;
+width: 200px;
+}
+.contact img
+{
+position: relative;
+width: 100%;
+height: 250px;	
+}
+.logo
+{
+position: absolute;
+top: 2000px;
+left: 500px;
+width: 200px;
+}
+.logo img
+{
+position: relative;
+width: 100%;
+height: 250px;	
+}
+.questions
+{
+position: absolute;
+top: 1600px;
+left: 800px;
+width: 400px;
+font-family: "Times New Roman";
+}
+.questions img
+{
+position: relative;
+width: 100%;
+height: 700px;
+top: 50px;
+}
+.questions h2
+{
+position: absolute;
+left:150px;
+color: black;
+font-family: "Times New Roman";
+}
+#apimap
+{
+width: 500px;
+height: 600px;
+left: 1150px;
+top: 275px;
+}
+.contactform
+{
+position: absolute;
+top: 150px;
+left: 150px;
+font-size: 15px;
+padding: 20px;
+font-family: "Times New Roman";
+}
+#complaint
+{
+width: 350px;
+height: 200px;	
+}
+#marquee
+{
+position: absolute;	
+top: 15px;
+left: 130px;
+height: 450px;
+width: 75%;
+}
+#marquee img
+{
+height: auto;	
+}
+#room1
+{
+position: absolute;
+width: 40%;
+height: 300px;
+top: 200px;
+left: 30px;
+}
+#room2
+{
+position: absolute;
+width: 40%;
+height: 300px;
+top: 400px;
+left: 400px;
+}
