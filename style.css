@@ -16,7 +16,7 @@ img#background
 	overflow-y: scroll;
 	position: absolute;
 	width: 98%;
-	height: 2600px;
+	height: 2400px;
 }
 tr
 {
@@ -30,15 +30,14 @@ tr
 .sec
 {
 position: absolute;
-left: 100px;
-top: 200px;
+left: 150px;
+top: 180px;
 width: 600px;
 font-family: "Times New Roman";
 }
 .sec h2
 {
 position: absolute;
-left: 120px;
 font-size: 45px;
 font-family: "Times New Roman";
 }
@@ -62,8 +61,8 @@ font-family: "Times New Roman";
 {
 position: absolute;
 top: 180px;
-left: 800px;
-width: 400px;
+left: 950px;
+width: 450px;
 }
 .map h2
 {
@@ -92,20 +91,20 @@ font-family: "Times New Roman";
 position: relative;
 top: 50px;
 width: 100%;
-height: 800px;
+height: 600px;
 }
 .rooms
 {
 position: absolute;
-top: 910px;
-left: 100px;
+top: 900px;
+left: 150px;
 width: 600px;
 font-family: "Times New Roman";
 }
 .rooms h2
 {
 position: absolute;
-left: 300px;
+left: 200px;
 font-family: "Times New Roman";
 }
 .rooms img
@@ -113,14 +112,14 @@ font-family: "Times New Roman";
 position: relative;
 top: 50px;
 width: 100%;
-height: 1000px;
+height: 700px;
 }
 .information
 {
 position: absolute;
-left: 100px;
-width: 80%;
-top: 750px;
+left: 300px;
+width: 40%;
+top: 200px;
 font-size: 20px;
 font-family: "Times New Roman";
 }
@@ -145,9 +144,9 @@ font-family: "Times New Roman";
 .booking
 {
 position: absolute;
-top: 1040px;
-left: 800px;
-width: 400px;
+top: 1100px;
+left: 950px;
+width: 450px;
 }
 .booking img
 {
@@ -171,6 +170,7 @@ left: 180px;
 font-size: 15px;
 padding: 20px;
 font-family: "Times New Roman";
+text-align: center;
 }
 .submit
 {
@@ -181,8 +181,8 @@ top: 300px;
 .contact
 {
 position: absolute;
-top: 2000px;
-left: 150px;
+top: 1800px;
+left: 950px;
 width: 200px;
 }
 .contact img
@@ -195,7 +195,7 @@ height: 250px;
 {
 position: absolute;
 top: 2000px;
-left: 500px;
+left: 950px;
 width: 200px;
 }
 .logo img
@@ -207,16 +207,16 @@ height: 250px;
 .questions
 {
 position: absolute;
-top: 1600px;
-left: 800px;
-width: 400px;
+top: 1700px;
+left: 150px;
+width: 500px;
 font-family: "Times New Roman";
 }
 .questions img
 {
 position: relative;
 width: 100%;
-height: 700px;
+height: 500px;
 top: 50px;
 }
 .questions h2
@@ -236,11 +236,12 @@ top: 275px;
 .contactform
 {
 position: absolute;
-top: 150px;
+top: 75px;
 left: 150px;
 font-size: 15px;
-padding: 20px;
+padding: 10px;
 font-family: "Times New Roman";
+text-align: center;
 }
 #complaint
 {
@@ -250,10 +251,10 @@ height: 200px;
 #marquee
 {
 position: absolute;	
-top: 15px;
-left: 130px;
+top: 5px;
+left: 40px;
 height: 450px;
-width: 75%;
+width: 85%;
 }
 #marquee img
 {
@@ -262,16 +263,16 @@ height: auto;
 #room1
 {
 position: absolute;
-width: 40%;
-height: 300px;
+width: 45%;
+height: 250px;
 top: 200px;
-left: 30px;
+left: 10px;
 }
 #room2
 {
 position: absolute;
-width: 40%;
-height: 300px;
-top: 400px;
-left: 400px;
+width: 45%;
+height: 250px;
+top: 475px;
+left: 10px;
 }
