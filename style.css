@@ -1,21 +1,29 @@
+@font-face 
+{
+font-family: "Noteworthy";
+src: url("Noteworthy-Lt.ttf")
+}
+
+
+
 html 
 {
 	overflow-y: scroll; 
+	scroll-behavior: smooth;
+
 }
-header
+header img
 {
 	position: absolute;
-	top: 20px;
 	left: 20px;
-	width: 300px;
-	height: 300px;
-	font-family: "Times New Roman";
+	width: 135px;
+	height: 135px;
 }
 img#background
 {
 	overflow-y: scroll;
 	position: absolute;
-	width: 98%;
+	width: 95%;
 	height: 2400px;
 }
 tr
@@ -25,206 +33,184 @@ tr
 	left: 130px;
 	top: 80px;
 	padding: 20px;
-	font-family: "Times New Roman";
+	font-family: "Noteworthy";
 }
-.sec
+#sec
 {
 position: absolute;
-left: 150px;
+left: 100px;
 top: 150px;
 width: 600px;
-font-family: "Times New Roman";
+font-family: "Noteworthy";
 }
-.sec h2
-{
-position: absolute;
-font-size: 45px;
-font-family: "Times New Roman";
-}
-.sec img
+#sec img
 {
 position: relative;
 width: 100%;
 height: 600px;
 top: 100px;
 }
-.about-us
+#about-us
 {
 position: absolute;
-font-size: 20px;
-top: 500px;
-left: 80px;
-width: 75%;
-font-family: "Times New Roman";
+font-size: 19px;
+top: 475px;
+left: 60px;
+width: 80%;
+font-family: "Noteworthy";
 }
-.map
+#map
 {
 position: absolute;
 top: 200px;
-left: 950px;
+left: 800px;
 width: 450px;
 }
-.map h2
-{
-position: absolute;
-left: 250px;
-font-family: "Times New Roman";
-}
-.description
+#description
 {
 position: absolute;
 left: 100px;
 top: 450px;
-font-family: "Times New Roman";
+font-family: "Noteworthy";
 }
-.title
+#title
 {
 position: absolute;
 font-size: 20px;
 top: 160px;
 left: 550px;
 width: 20px;
-font-family: "Times New Roman";
+font-family: "Noteworthy";
 }
-.map img
+#map img
 {
 position: relative;
 top: 50px;
 width: 100%;
 height: 500px;
 }
-.rooms
+#rooms
 {
 position: absolute;
 top: 900px;
-left: 150px;
+left: 100px;
 width: 600px;
-font-family: "Times New Roman";
+font-family: "Noteworthy";
 }
-.rooms h2
+#room1
 {
 position: absolute;
-left: 200px;
-font-family: "Times New Roman";
+width: 45%;
+height: 250px;
+top: 150px;
+left: 30px;
 }
-.rooms img
+#room2
+{
+position: absolute;
+width: 45%;
+height: 250px;
+top: 450px;
+left: 30px;
+}
+#background5
 {
 position: relative;
 top: 50px;
 width: 100%;
 height: 700px;
 }
-.information
+#information
 {
 position: absolute;
 left: 340px;
 width: 40%;
-top: 210px;
-font-size: 20px;
-font-family: "Times New Roman";
+top: 165px;
+font-size: 19px;
+font-family: "Noteworthy";
 }
-.information1
+#information1
 {
 position: absolute;
 left: 100px;
 width: 80%;
 top: 750px;
 font-size: 20px;
-font-family: "Times New Roman";
+font-family: "Noteworthy";
 }
-.information2
+#information2
 {
 position: absolute;
 left: 100px;
 width: 80%;
 top: 750px;
 font-size: 20px;
-font-family: "Times New Roman";
+font-family: "Noteworthy";
 }
-.booking
+#booking
 {
 position: absolute;
 top: 1100px;
-left: 950px;
+left: 800px;
 width: 450px;
 }
-.booking img
+#booking img
 {
 position: relative;
 width: 100%;
 height: 500px;
 top: 50px;
 }
-.booking h2
+#bookingform 
 {
 position: absolute;
-left:250px;
-color: black;
-font-family: "Times New Roman";
-}
-.bookingform 
-{
-position: absolute;
-top: 120px;
+top: 75px;
 left: 60px;
-font-size: 15px;
-padding: 20px;
-font-family: "Times New Roman";
+font-size: 17px;
+padding: 10px;
+font-family: "Noteworthy";
 text-align: center;
 }
-.submit
-{
-position: absolute;
-left: 40px;
-top: 300px;
-}
-.contact
+#contact
 {
 position: absolute;
 top: 1800px;
-left: 1050px;
-width: 350px;
+left: 950px;
+width: 300px;
 }
-.contact img
+#contact img
 {
 position: relative;
 width: 100%;
-height: 350px;	
+height: 300px;	
 }
-.logo
+#logo
 {
 position: absolute;
 top: 1800px;
-left: 650px;
-width: 350px;
+left: 600px;
+width: 300px;
 }
-.logo img
+#logo img
 {
 position: relative;
 width: 100%;
-height: 350px;	
+height: 300px;	
 }
-.questions
+#questions
 {
 position: absolute;
 top: 1700px;
-left: 150px;
+left: 100px;
 width: 450px;
-font-family: "Times New Roman";
+font-family: "Noteworthy";
 }
-.questions img
+#questions img
 {
 position: relative;
 width: 100%;
 height: 475px;
 top: 50px;
-}
-.questions h2
-{
-position: absolute;
-left:150px;
-color: black;
-font-family: "Times New Roman";
 }
 #apimap
 {
@@ -233,12 +219,12 @@ height: 600px;
 left: 1150px;
 top: 275px;
 }
-.contactform
+#contactform
 {
 position: absolute;
 top: 75px;
 font-size: 15px;
-font-family: "Times New Roman";
+font-family: "Noteworthy";
 text-align: center;
 width: 350px;
 left: 50px;
@@ -246,12 +232,11 @@ left: 50px;
 #complaint
 {
 width: 350px;
-height: 200px;	
+height: 125px;	
 }
 #marquee
 {
 position: absolute;	
-top: 5px;
 left: 40px;
 height: 450px;
 width: 85%;
@@ -260,34 +245,58 @@ width: 85%;
 {
 height: auto;	
 }
-#room1
+#rooms table
 {
 position: absolute;
-width: 45%;
-height: 250px;
-top: 175px;
-left: 30px;
-}
-#room2
-{
-position: absolute;
-width: 45%;
-height: 225px;
-top: 475px;
-left: 30px;
-}
-.rooms table
-{
-position: absolute;
-bottom: 710px;
+bottom: 725px;
 text-align: center;
-right: 675px;
+right: 585px;
 }
-.quote
+#quote
 {
 position: absolute;
 font-size: 18px;
-left: 840px;
+left: 735px;
 width: 30px;
 top: 200px;
+}
+#header
+{
+position: absolute;
+width: 600px;
+left: 100px;
+top: 175px;
+height: 75px;
+}
+#header1
+{
+position: absolute;
+width: 450px;
+left: 800px;
+top: 200px;
+height: 50px;
+}
+#header2
+{
+position: absolute;
+width: 600px;
+left: 100px;
+top: 900px;
+height: 50px;
+}
+#header3
+{
+position: absolute;
+width: 450px;
+left: 800px;
+top: 1100px;
+height: 60px;
+}
+#header4
+{
+position: absolute;
+width: 450px;
+left: 100px;
+top: 1700px;
+height: 50px;
 }
