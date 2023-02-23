@@ -66,33 +66,10 @@ top: 200px;
 left: 800px;
 width: 450px;
 }
-#description
-{
-position: absolute;
-left: 100px;
-top: 450px;
-font-family: "Noteworthy";
-}
-#title
-{
-position: absolute;
-font-size: 20px;
-top: 160px;
-left: 550px;
-width: 20px;
-font-family: "Noteworthy";
-}
-#map img
-{
-position: relative;
-top: 50px;
-width: 100%;
-height: 500px;
-}
 #rooms
 {
 position: absolute;
-top: 900px;
+top: 925px;
 left: 100px;
 width: 600px;
 font-family: "Noteworthy";
@@ -158,7 +135,7 @@ width: 450px;
 {
 position: relative;
 width: 100%;
-height: 500px;
+height: 450px;
 top: 50px;
 }
 #bookingform 
@@ -166,15 +143,14 @@ top: 50px;
 position: absolute;
 top: 75px;
 left: 60px;
-font-size: 17px;
-padding: 10px;
+font-size: 15px;
 font-family: "Noteworthy";
 text-align: center;
 }
 #contact
 {
 position: absolute;
-top: 1800px;
+top: 1850px;
 left: 950px;
 width: 300px;
 }
@@ -187,7 +163,7 @@ height: 300px;
 #logo
 {
 position: absolute;
-top: 1800px;
+top: 1850px;
 left: 600px;
 width: 300px;
 }
@@ -200,7 +176,7 @@ height: 300px;
 #questions
 {
 position: absolute;
-top: 1700px;
+top: 1750px;
 left: 100px;
 width: 450px;
 font-family: "Noteworthy";
@@ -209,15 +185,8 @@ font-family: "Noteworthy";
 {
 position: relative;
 width: 100%;
-height: 475px;
+height: 450px;
 top: 50px;
-}
-#apimap
-{
-width: 500px;
-height: 600px;
-left: 1150px;
-top: 275px;
 }
 #contactform
 {
@@ -232,7 +201,7 @@ left: 50px;
 #complaint
 {
 width: 350px;
-height: 125px;	
+height: 100px;	
 }
 #marquee
 {
@@ -281,8 +250,8 @@ height: 50px;
 position: absolute;
 width: 600px;
 left: 100px;
-top: 900px;
-height: 50px;
+top: 925px;
+height: 60px;
 }
 #header3
 {
@@ -290,13 +259,21 @@ position: absolute;
 width: 450px;
 left: 800px;
 top: 1100px;
-height: 60px;
+height: 50px;
 }
 #header4
 {
 position: absolute;
 width: 450px;
 left: 100px;
-top: 1700px;
+top: 1750px;
 height: 50px;
+}
+#datetime
+{
+position: absolute;
+left: 500px;
+top: 20px;
+font-size: 18px;
+font-family: Noteworthy;
 }

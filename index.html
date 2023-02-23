@@ -15,6 +15,10 @@
 				alert("Submission Sent");
 		}
 	</script>
+		<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
+		</script>
 <head>
 	<title>Yoshino Castle</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -34,11 +38,12 @@
 	<table cellspacing="0" cellpadding="10">
 <tr>
 	<td><a href="#sec">Home</a></td>
-	<td><a href="#booking">Booking</a></td>
+	<td><a href="#rooms">Booking</a></td>
 	<td><a href="#questions">Contact Us</a></td>
 </tr>
 </table>
 </nav>
+<p>Date and Time- <span id="datetime"></span></p>
 <div id="sec">
 	<img src="text.png">
 		<marquee behavior="scroll" direction="right" id="marquee">
@@ -61,9 +66,7 @@
 		</marquee>
 	<div id="about-us">Yoshino Castle is the next home for you. Whether it is travelling, or needing a place to stay for a couple days, we are there for your needs. Equipped with 3 types of room, each with special amenities built to bring comfort, health, and happiness into your life. During times of stress we are made for you, and when you walk in you know you'll be cared for with a warm, "Welcome to Yoshino Castle!"</div>
 </div>
-<div id="map">
-	<img src="text.png">
-</div>
+<div id="map"></div>
 <div id="rooms">
 	<img src="text.png" id="background5">
 	<nav>
@@ -123,8 +126,7 @@
 </div>
 <script defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-8VYS3Ec2itOq8WAjlBr6k5IUz8HLdcU&callback=initMap">
-		</script>
-	<div id="apimap"></div>
+</script>
 <div id="quote">
 <h2>人生は七転び八起き。転んでもまた立ち上がる。くじけずに前を向いて歩いていこう。</h2>
 </div>

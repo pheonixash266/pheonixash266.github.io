@@ -5,7 +5,7 @@ function initMap() {
 		zoom: 11
 	}
 
-	map = new google.maps.Map(document.getElementById("apimap"), options)
+	map = new google.maps.Map(document.getElementById("map"), options)
 
 	var marker = new google.maps.Marker({
 		position:{lat: 33.466213, lng: -112.098239},
