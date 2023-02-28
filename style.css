@@ -23,7 +23,7 @@ img#background
 {
 	overflow-y: scroll;
 	position: absolute;
-	width: 100%;
+	width: 98%;
 	height: 2300px;
 }
 tr
@@ -62,7 +62,6 @@ font-family: "Noteworthy";
 #map
 {
 position: absolute;
-top: 200px;
 left: 800px;
 width: 450px;
 }
