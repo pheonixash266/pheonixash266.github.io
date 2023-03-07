@@ -3,9 +3,6 @@
 font-family: "Noteworthy";
 src: url("Noteworthy-Lt.ttf")
 }
-
-
-
 html 
 {
 	overflow-y: scroll; 
@@ -59,11 +56,13 @@ left: 60px;
 width: 80%;
 font-family: "Noteworthy";
 }
-#map
+#iframe
 {
 position: absolute;
-left: 800px;
+height: 300px;
 width: 450px;
+left: 800px;
+top: 300px;
 }
 #rooms
 {
@@ -82,6 +81,38 @@ top: 115px;
 left: 30px;
 }
 #room2
+{
+position: absolute;
+width: 45%;
+height: 250px;
+top: 410px;
+left: 30px;
+}
+#room3
+{
+position: absolute;
+width: 45%;
+height: 250px;
+top: 115px;
+left: 30px;
+}
+#room4
+{
+position: absolute;
+width: 45%;
+height: 250px;
+top: 410px;
+left: 30px;
+}
+#room5
+{
+position: absolute;
+width: 45%;
+height: 250px;
+top: 115px;
+left: 30px;
+}
+#room6
 {
 position: absolute;
 width: 45%;
@@ -241,7 +272,7 @@ height: 75px;
 position: absolute;
 width: 450px;
 left: 800px;
-top: 200px;
+top: 225px;
 height: 50px;
 }
 #header2

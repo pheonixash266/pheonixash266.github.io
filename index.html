@@ -1,5 +1,4 @@
 <DOCTYPE html>
-<script src="/app.js"></script>
 <script type="text/javascript">
 	var custNames = new ArrayList();
 	var custEmail = new ArrayList();
@@ -66,18 +65,27 @@
 		</marquee>
 	<div id="about-us">Yoshino Castle is the next home for you. Whether it is travelling, or needing a place to stay for a couple days, we are there for your needs. Equipped with 3 types of room, each with special amenities built to bring comfort, health, and happiness into your life. During times of stress we are made for you, and when you walk in you know you'll be cared for with a warm, "Welcome to Yoshino Castle!"</div>
 </div>
-<div id="map"></div>
+<iframe id="iframe"
+width="400"
+height="500"
+frameborder="0"
+style="border: 0"
+src="https://maps.googleapis.com/maps/embed/v1/place?key=AIzaSyDeDVrnGNw8to194sOl3CuBgysNoCvJ67o&q=33.469118,-112.054409&zoom=11&" allowfullscreen></iframe>
 <div id="rooms">
 	<img src="text.png" id="background5">
 	<nav>
 		<table cellspacing="20" cellpadding="20" id="table1">
-			<td><a href="file:///index.html" id="yoshino.html">Individual</a></td>
-			<td><a href="file:///C:\file:///media/fuse/drivefs-5fdbbde45bb274822848015b6afc5989/root/FBLA/yoshino1.html" id="yoshino1.html">Suite</a></td>
-			<td><a href="file:///C:\yoshino2.html" id="yoshino2.html">Family</a></td>
+			<td><button onclick="individualRoom()">Individual</button></td>
+			<td><button onclick="suiteRoom()">Suite</button></td>
+			<td><button onclick="familyRoom()">Family</button></td>
 		</table>
 	</nav>
 	<img src="individual1.png" id="room1">
 	<img src="individual2.png" id="room2">
+	<img src="family1.png" id="room3">
+	<img src="family2.png" id="room4">
+	<img src="suite1.png" id="room5">
+	<img src="suite2.png" id="room6">
 	<div id="information">Individiual Room <br> <br> Cost: $40/night <br> The individual room consists of 1 queen bed, 1 futon, a half kitchen, and full bathroom fit for your needs. It also has a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes clean and tidy. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also provide free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
 	<div id="information1" hidden>Cost: $60/night <br> The suite consists of 1 queen bed, 2 futons, a full kitchen, and full bathroom fit for you and anyone you hold dear. It is equipped with a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes tidy and clean. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also providing free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
 	<div id="information2" hidden>Cost: $80/night <br> The family room consists of 2 queen beds, 2 futons, a full kitchen, and full bathroom fit for the needs of your loved ones. It also has a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes clean for the whole family. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also providing free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
@@ -123,10 +131,8 @@
 		</form>
 	</div>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMLx9cC10xB5yI6u8JSjVzuPzfmnXfX_s&callback=initMap&v=weekly" defer></script>
 <div id="quote">
 <h2>人生は七転び八起き。転んでもまた立ち上がる。くじけずに前を向いて歩いていこう。</h2>
 </div>
-
-
-</body>>
+<script src="/app.js"></script>
+</body>
