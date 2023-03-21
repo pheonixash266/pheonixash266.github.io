@@ -15,7 +15,7 @@
 		}
 	</script>
 		<script>
-		var dt = new Date();
+		var dt = Date();
 		document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
 		</script>
 <head>
@@ -38,14 +38,14 @@
 <tr>
 	<td><a href="#sec">Home</a></td>
 	<td><a href="#rooms">Booking</a></td>
-	<td><a href="#questions">Contact Us</a></td>
+	<td><a href="#contact">Contact Us</a></td>
 </tr>
 </table>
 </nav>
 <p>Date and Time- <span id="datetime"></span></p>
 <div id="sec">
 	<img src="text.png">
-		<marquee behavior="scroll" direction="right" id="marquee">
+		<marquee behavior="scroll" direction="left" id="marquee" loop="infinite">
 			<img src="family.png" width="100">
 			<img src="family1.png" width="100">
 			<img src="family2.png" width="100">
@@ -63,33 +63,28 @@
 			<img src="suite8.png" width="100">
 			<img src="suite9.png" width="100">
 		</marquee>
-	<div id="about-us">Yoshino Castle is the next home for you. Whether it is travelling, or needing a place to stay for a couple days, we are there for your needs. Equipped with 3 types of room, each with special amenities built to bring comfort, health, and happiness into your life. During times of stress we are made for you, and when you walk in you know you'll be cared for with a warm, "Welcome to Yoshino Castle!"</div>
+	<div id="about-us">Yoshino Castle is a hotel created to bring you hope. Whether it is travelling or in need of a place to stay, we are here for you. With 3 types of rooms, each amenity is chosen to best provide for you. During times of stress we are there when you walk in, and you know you'll be cared for with a, "Welcome to Yoshino Castle!"</div>
 </div>
 <iframe id="iframe"
 width="400"
 height="500"
-frameborder="0"
+frameborder="5"
 style="border: 0"
-src="https://maps.googleapis.com/maps/embed/v1/place?key=AIzaSyDeDVrnGNw8to194sOl3CuBgysNoCvJ67o&q=33.469118,-112.054409&zoom=15" allowfullscreen></iframe>
+src="https://maps.googleapis.com/maps/embed/v1/place?key=AIzaSyDeDVrnGNw8to194sOl3CuBgysNoCvJ67o&q=1202 E Palm Ln, Phoenix, AZ 85006&zoom=15" allowfullscreen>
+</iframe>
 <div id="rooms">
 	<img src="text.png" id="background5">
 	<nav>
-		<table cellspacing="10" cellpadding="5" id="table1">
-			<td><button onclick="individualRoom()">Individual</button></td>
-			<td><button onclick="suiteRoom()">Suite</button></td>
-			<td><button onclick="familyRoom()">Family</button></td>
+		<table cellspacing="50" cellpadding="5" id="table1">
+			<td><a href=yoshino.html>Individual</a></td>
+			<td><a href=yoshino1.html>Suite</a></td>
+			<td><a href=yoshino2.html>Family</a></td>
 		</table>
 	</nav>
 	<img src="individual1.png" id="room1">
 	<img src="individual2.png" id="room2">
-	<img src="family1.png" id="room3">
-	<img src="family2.png" id="room4">
-	<img src="suite1.png" id="room5">
-	<img src="suite2.png" id="room6">
-	<div id="information">Individiual Room <br> <br> Cost: $40/night <br> The individual room consists of 1 queen bed, 1 futon, a half kitchen, and full bathroom fit for your needs. It also has a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes clean and tidy. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also provide free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
-	<div id="information1" hidden>Cost: $60/night <br> The suite consists of 1 queen bed, 2 futons, a full kitchen, and full bathroom fit for you and anyone you hold dear. It is equipped with a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes tidy and clean. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also providing free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
-	<div id="information2" hidden>Cost: $80/night <br> The family room consists of 2 queen beds, 2 futons, a full kitchen, and full bathroom fit for the needs of your loved ones. It also has a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes clean for the whole family. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also providing free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
-</div>
+	<div id="information">Individiual Room <br> <br> Cost: $40/night <br> Beds: 1 queen, 1 futon <br> Amenities: half kitchen, full bathroom, washer/dryer with ironing board, and free WiFi <br><br> We hope you enjoy your stay at Yoshino Castle!</div>
+	</div>
 <div id="booking">
 	<img src="text.png">
 	<div id="bookingform">

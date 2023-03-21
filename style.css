@@ -13,30 +13,30 @@ header img
 {
 	position: absolute;
 	left: 20px;
-	width: 135px;
-	height: 125px;
+	width: 120px;
+	height: 110px;
 }
 img#background
 {
 	overflow-y: scroll;
 	position: absolute;
 	width: 98%;
-	height: 2300px;
+	height: 2200px;
 }
 tr
 {
 	position: absolute;
 	font-size: 20px;
 	left: 130px;
-	top: 70px;
-	padding: 20px;
+	top: 45px;
+	padding: 30px;
 	font-family: "Noteworthy";
 }
 #sec
 {
 position: absolute;
 left: 100px;
-top: 175px;
+top: 140px;
 width: 600px;
 font-family: "Noteworthy";
 }
@@ -44,14 +44,14 @@ font-family: "Noteworthy";
 {
 position: relative;
 width: 100%;
-height: 600px;
-top: 100px;
+height: 410px;
+top: 90px;
 }
 #about-us
 {
 position: absolute;
-font-size: 19px;
-top: 475px;
+font-size: 15px;
+top: 375px;
 left: 60px;
 width: 80%;
 font-family: "Noteworthy";
@@ -59,15 +59,15 @@ font-family: "Noteworthy";
 #iframe
 {
 position: absolute;
-height: 300px;
+height: 375px;
 width: 450px;
 left: 875px;
-top: 300px;
+top: 250px;
 }
 #rooms
 {
 position: absolute;
-top: 975px;
+top: 750px;
 left: 100px;
 width: 600px;
 font-family: "Noteworthy";
@@ -76,88 +76,38 @@ font-family: "Noteworthy";
 {
 position: absolute;
 width: 45%;
-height: 250px;
-top: 80px;
+height: 300px;
+top: 100px;
 left: 30px;
 }
 #room2
 {
 position: absolute;
 width: 45%;
-height: 250px;
-top: 365px;
-left: 30px;
-}
-#room3
-{
-position: absolute;
-width: 45%;
-height: 250px;
-top: 80px;
-left: 30px;
-}
-#room4
-{
-position: absolute;
-width: 45%;
-height: 250px;
-top: 365px;
-left: 30px;
-}
-#room5
-{
-position: absolute;
-width: 45%;
-height: 250px;
-top: 80px;
-left: 30px;
-}
-#room6
-{
-position: absolute;
-width: 45%;
-height: 250px;
-top: 365px;
-left: 30px;
+height: 300px;
+top: 100px;
+left: 300px;
 }
 #background5
 {
 position: relative;
 top: 50px;
 width: 100%;
-height: 600px;
+height: 650px;
 }
 #information
 {
 position: absolute;
-left: 330px;
-width: 40%;
-top: 125px;
-font-size: 19px;
-font-family: "Noteworthy";
-}
-#information1
-{
-position: absolute;
-left: 100px;
+left: 50px;
 width: 80%;
-top: 725px;
-font-size: 20px;
-font-family: "Noteworthy";
-}
-#information2
-{
-position: absolute;
-left: 100px;
-width: 80%;
-top: 725px;
-font-size: 20px;
+top: 425px;
+font-size: 17px;
 font-family: "Noteworthy";
 }
 #booking
 {
 position: absolute;
-top: 1125px;
+top: 850px;
 left: 875px;
 width: 450px;
 }
@@ -171,43 +121,25 @@ top: 50px;
 #bookingform 
 {
 position: absolute;
-top: 80px;
-left: 60px;
+top: 75px;
+left: 75px;
 font-size: 15px;
 font-family: "Noteworthy";
 text-align: center;
 }
-#contact
-{
-position: absolute;
-top: 1750px;
-left: 975px;
-width: 300px;
-}
 #contact img
 {
-position: relative;
-width: 350px;
-height: 350px;	
-}
-#logo
-{
 position: absolute;
-top: 1750px;
-left: 575px;
-width: 300px;
-}
-#logo img
-{
-position: relative;
-width: 350px;
-height: 350px;	
+top: 1525px;
+left: 135px;
+width: 525px;
+height: 525px;
 }
 #questions
 {
 position: absolute;
-top: 1675px;
-left: 100px;
+top: 1575px;
+left: 875px;
 width: 450px;
 font-family: "Noteworthy";
 }
@@ -215,14 +147,14 @@ font-family: "Noteworthy";
 {
 position: relative;
 width: 100%;
-height: 425px;
+height: 400px;
 top: 50px;
 }
 #contactform
 {
 position: absolute;
-top: 80px;
-font-size: 13px;
+top: 70px;
+font-size: 12px;
 font-family: "Noteworthy";
 text-align: center;
 width: 350px;
@@ -236,9 +168,10 @@ height: 100px;
 #marquee
 {
 position: absolute;	
-left: 40px;
-height: 450px;
-width: 85%;
+top: 5px;
+left: 85px;
+height: 350px;
+width: 70%;
 }
 #marquee img
 {
@@ -247,24 +180,24 @@ height: auto;
 #rooms table
 {
 position: absolute;
-bottom: 610px;
+bottom: 625px;
 text-align: center;
-right: 405px;
+right: 550px;
 }
 #quote
 {
 position: absolute;
-font-size: 18px;
+font-size: 23px;
 left: 775px;
 width: 30px;
-top: 200px;
+top: 160px;
 }
 #header
 {
 position: absolute;
 width: 600px;
 left: 100px;
-top: 200px;
+top: 160px;
 height: 75px;
 }
 #header1
@@ -272,7 +205,7 @@ height: 75px;
 position: absolute;
 width: 450px;
 left: 875px;
-top: 225px;
+top: 200px;
 height: 50px;
 }
 #header2
@@ -280,23 +213,23 @@ height: 50px;
 position: absolute;
 width: 600px;
 left: 100px;
-top: 955px;
-height: 70px;
+top: 720px;
+height: 80px;
 }
 #header3
 {
 position: absolute;
 width: 450px;
 left: 875px;
-top: 1125px;
+top: 850px;
 height: 50px;
 }
 #header4
 {
 position: absolute;
 width: 450px;
-left: 100px;
-top: 1675px;
+left: 875px;
+top: 1575px;
 height: 50px;
 }
 #datetime
