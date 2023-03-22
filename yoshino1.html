@@ -1,154 +1,128 @@
 <DOCTYPE html>
-<script src="/app.js"></script>
-<script type="text/javascript">
-	List custNames = new ArrayList();
-	List custEmail = new ArrayList();
-	List custNumber = new ArrayList();
-	List  = new ArrayList();
-	string[] roomtype = {};
-		function callvalue(){
-			var name = document.getElementById("name");
-			var email = document.getElementById("email");
-			var phonenumber = document.getElementById("phonenumber");
-			var date = document.getElementById("date");
-			var roomtype = document.getElementById("roomtype");
-				alert("Submission Saved");
-		}
-	</script>
 	<script type="text/javascript">
-		function init() {
-		 var infowindow = new google.maps.InfoWindow({
-		}
-    content: "AZ State Fair: Open noon Thursdays through Sundays; you are sure to have an exciting time with you and anyone you bring along, with lots of amusement rides, and neverending food options, you are guaranteed nothing but fun.",
-  };
-
-  google.maps.event.addListener(marker, 'click', function() {
-    infowindow.open(map, marker)
-  });
-
-window.onload = init;
-
-
-
-
-
-
-
-
-
-	</script>
-<head>
-	<title>Yoshino Castle</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<img src="background.png" id="background">
-<header>
-	<img src="logo.png">
-</header>
-<hr>
-<nav>
-	<table cellspacing="5" cellpadding="5">
-<tr>
-	<td><a href="#sec" class="scroll-to">Home</a></td>
-	<td><a href="#rooms" class="scroll-to">Booking</a></td>
-	<td><a href="#contact" class="scroll-to">Contact Us</a></td>
-</tr>
-</table>
-</nav>
-<div class="sec">
-	<h2>Yoshino Castle: Home of Peace</h2>
-	<img src="text.png">
-		<marquee behavior="scroll" direction="right" id="marquee">
-			<img src="family.png" width="100" height="30" alt="Natural">
-			<img src="family1.png" width="100" height="30" alt="Natural">
-			<img src="family2.png" width="100" height="30" alt="Natural">
-			<img src="family3.png" width="100" height="30" alt="Natural">
-			<img src="individual.png" width="100" height="30" alt="Natural">
-			<img src="individual1.png" width="100" height="30" alt="Natural">
-			<img src="individual2.png" width="100" height="30" alt="Natural">
-			<img src="suite.png" width="100" height="30" alt="Natural">
-			<img src="suite1.png" width="100" height="30" alt="Natural">
-			<img src="suite2.png" width="100" height="30" alt="Natural">
-			<img src="suite3.png" width="100" height="30" alt="Natural">	
-			<img src="suite4.png" width="100" height="30" alt="Natural">
-			<img src="suite5.png" width="100" height="30" alt="Natural">
-			<img src="suite7.png" width="100" height="30" alt="Natural">
-			<img src="suite8.png" width="100" height="30" alt="Natural">
-			<img src="suite9.png" width="100" height="30" alt="Natural">
-		</marquee>
-	<div class="about-us">We are a family-oriented, friendly place for all your needs during times of travel. We ensure each guest feels at home in each room, while providing a deep sense of Japanese culture to keep a sense of wonder. We provide you all the necessities of life, a place to call home, and a sense of bliss that overwhelms you walking through the doors. Everyone staying is guranteed safety, security, rest, and a we hope you have a wonderful stay. </div>
-</div>
-<div class="map">
-	<h2>Local Map</h2>
-	<img src="text.png">
-</div>
-<div class="rooms">
-	<h2>Room Selection</h2>
-	<img src="text.png">
-	<nav>
-		<table cellspacing="5" cellpadding="50">
-			<td><a href="file:///C:\yoshino.html" id="yoshino.htmk">Individual</a></td>
-			<td><a href="file:///C:\file:///media/fuse/drivefs-5fdbbde45bb274822848015b6afc5989/root/FBLA/yoshino1.html" id="yoshino1.html">Suite</a></td>
-			<td><a href="file:///C:\yoshino2.html" id="yoshino2.html">Family</a></td>
-		</table>
-	</nav>
-	<img src="suite4.png" id="room1">
-	<img src="suite3.png" id="room2">
-	<div class="information" hidden>Cost: $40/night <br> The individual room consists of 1 queen bed, 1 futon, a half kitchen, and full bathroom fit for your needs. It also has a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes clean and tidy. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also provide free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
-	<div class="information1">Cost: $60/night <br> The suite consists of 1 queen bed, 2 futons, a full kitchen, and full bathroom fit for you and anyone you hold dear. It is equipped with a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes tidy and clean. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also providing free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
-	<div class="information2" hidden>Cost: $80/night <br> The family room consists of 2 queen beds, 2 futons, a full kitchen, and full bathroom fit for the needs of your loved ones. It also has a closet containing an ironing board, and washer/dryer combo, perfect to keep your clothes clean for the whole family. The kitchen has a fridge, sink, and stove to provide an option to cook with reliability. We also providing free WiFi for your convenience. We hope you enjoy your stay at Yoshino Castle!</div>
-</div>
-<div class="booking">
-	<h2>Booking</h2>
-	<img src="text.png">
-	<div class="bookingform">
-		<form onsubmit="callvalue()">
-				Name: <input type="text" placeholder="first and last" id="name"><br><br><br>
-				Email Address: <input type="email" placeholder="email address" id="email"><br><br><br>
-			Phone Number: <input type="number" placeholder="number only" id="phonenumber"><br><br><br>
-				Booking Date: <input type="date" id="date"><br><br><br>
-				Room Type: <select name="roomytype" id="roomtype">
-					<option value="individal">Individual</option>
-
-
-					<option value="suite">Suite</option>
-
-
-					<option value="family">Family</option
-							></select><br><br><br>
-			
-			<input type="submit" value="submit" name="submit">
-		</form>
-	</div>
-
-</div>
-<div class="contact">
-	<img src="contact.png">
-</div>
-<div class="logo">
-	<img src="logo.png">
-</div>
-<div class="questions">
-	<h2>Any Additional Questions?</h2>
-	<img src="text.png">
-	<div class="contactform">
-		<form onsubmit="callvalue()">
-			Name: <input type="text" placeholder="first and last" id="name1"><br><br><br>
-			Email Address: <input type="email" placeholder="email address" id="email1"><br><br><br>
-			Phone Number: <input type="number" placeholder="numbers only" id="phonenumber1"><br><br><br>
-			Questions/Comment: <input type="text" id="complaint" placeholder="any questions or comments reguarding our hotel quality"><br><br><br>
-				<input type="submit" value="submit" name="submit">
-		</form>
-	</div>
-
-</div>
-<script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-8VYS3Ec2itOq8WAjlBr6k5IUz8HLdcU&callback=initMap">
+		var custNames = new ArrayList();
+		var custEmail = new ArrayList();
+		var custNumber = new ArrayList();
+		var custRoom = new ArrayList();
+		string[roomtype] = {};
+			function callvalue(){
+				var name = document.getElementById("name");
+				var email = document.getElementById("email");
+				var phonenumber = document.getElementById("phonenumber");
+				var date = document.getElementById("date");
+				var roomtype = document.getElementById("roomtype");
+					alert("Submission Sent");
+			}
 		</script>
-	<div id="apimap"></div>
-
-
-
-
-</body>
+	<head>
+		<title>Yoshino Castle</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<img src="background.png" id="background">
+	<img src="yoshinox.png" id="header">
+	<img src="mapx.png" id="header1">
+	<img src="roomx.png" id="header2">
+	<img src="bookingx.png" id="header3">
+	<img src="questionx.png" id="header4">
+	<header>
+		<img src="logo.png">
+	</header>
+	<hr>
+	<nav>
+		<table cellspacing="0" cellpadding="10">
+	<tr>
+		<td><a href="#sec">Home</a></td>
+		<td><a href="#rooms">Booking</a></td>
+		<td><a href="#questions">Contact Us</a></td>
+	</tr>
+	</table>
+	</nav>
+	<div id="sec">
+		<img src="text.png">
+			<marquee behavior="scroll" direction="left" id="marquee" loop="infinite">
+				<img src="family.png" width="100">
+				<img src="family1.png" width="100">
+				<img src="family2.png" width="100">
+				<img src="family3.png" width="100">
+				<img src="individual.png" width="100">
+				<img src="individual1.png" width="100">
+				<img src="individual2.png" width="100">
+				<img src="suite.png" width="100">
+				<img src="suite1.png" width="100">
+				<img src="suite2.png" width="100">
+				<img src="suite3.png" width="100">	
+				<img src="suite4.png" width="100">
+				<img src="suite5.png" width="100">
+				<img src="suite7.png" width="100">
+				<img src="suite8.png" width="100">
+				<img src="suite9.png" width="100">
+			</marquee>
+		<div id="about-us">Yoshino Castle is a hotel created to bring you hope. Whether it is travelling or in need of a place to stay, we are here for you. With 3 types of rooms, each amenity is chosen to best provide for you. During times of stress we are there when you walk in, and you know you'll be cared for with a, "Welcome to Yoshino Castle!"</div>
+	</div>
+	<iframe id="iframe"
+	width="400"
+	height="500"
+	frameborder="5"
+	style="border: 0"
+	src="https://maps.googleapis.com/maps/embed/v1/place?key=AIzaSyDeDVrnGNw8to194sOl3CuBgysNoCvJ67o&q=1202 E Palm Ln, Phoenix, AZ 85006&zoom=15" allowfullscreen>
+	</iframe>
+	<div id="rooms">
+		<img src="text.png" id="background5">
+		<nav>
+			<table cellspacing="50" cellpadding="5" id="table1">
+				<td><a href=yoshino.html>Individual</a></td>
+				<td><a href=yoshino1.html>Suite</a></td>
+				<td><a href=yoshino2.html>Family</a></td>
+			</table>
+		</nav>
+		<img src="individual1.png" id="room1">
+		<img src="individual2.png" id="room2">
+		<div id="information">Suite Room <br> <br> Cost: $60/night <br> Beds: 1 queen, 2 futon <br> Amenities: full kitchen, full bathroom, washer/dryer with ironing board, and free WiFi <br><br> We hope you enjoy your stay at Yoshino Castle!</div>
+		</div>
+	<div id="booking">
+		<img src="text.png">
+		<div id="bookingform">
+			<form onsubmit=callvalue()>
+					Name: <input type="text" placeholder="first and last" id="name"><br><br><br>
+					Email Address: <input type="email" placeholder="email address" id="email"><br><br><br>
+					Phone Number: <input type="number" placeholder="number only" id="phonenumber"><br><br><br>
+					Booking Date: <input type="date" id="date"><br><br><br>
+					Room Type: <select name="roomytype" id="roomtype">
+						<option value="individal">Individual</option>
+	
+	
+						<option value="suite">Suite</option>
+	
+	
+						<option value="family">Family</option
+								></select><br><br><br>
+				
+				<input type="submit" value="submit" id="submit">
+			</form>
+		</div>
+	
+	</div>
+	<div id="contact">
+		<img src="contact.png">
+	</div>
+	<div id="logo">
+		<img src="logo.png">
+	</div>
+	<div id="questions">
+		<img src="text.png">
+		<div id="contactform">
+			<form onsubmit="callvalue()">
+				Name: <input type="text" placeholder="first and last" id="name1"><br><br><br>
+				Email Address: <input type="email" placeholder="email address" id="email1"><br><br><br>
+				Phone Number: <input type="number" placeholder="numbers only" id="phonenumber1"><br><br><br>
+				Questions/Comment: <input type="text" id="complaint" placeholder="any questions or comments reguarding our hotel"><br><br><br>
+					<input type="submit" value="submit" id="submit1">
+			</form>
+		</div>
+	</div>
+	<div id="quote">
+	<h2>人生は七転び八起き。転んでもまた立ち上がる。くじけずに前を向いて歩いていこう。</h2>
+	</div>
+	<script src="/app.js"></script>
+	</body>

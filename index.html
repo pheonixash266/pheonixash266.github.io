@@ -14,10 +14,6 @@
 				alert("Submission Sent");
 		}
 	</script>
-		<script>
-		var dt = Date();
-		document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
-		</script>
 <head>
 	<title>Yoshino Castle</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -38,11 +34,10 @@
 <tr>
 	<td><a href="#sec">Home</a></td>
 	<td><a href="#rooms">Booking</a></td>
-	<td><a href="#contact">Contact Us</a></td>
+	<td><a href="#questions">Contact Us</a></td>
 </tr>
 </table>
 </nav>
-<p>Date and Time- <span id="datetime"></span></p>
 <div id="sec">
 	<img src="text.png">
 		<marquee behavior="scroll" direction="left" id="marquee" loop="infinite">
